@@ -1,0 +1,42 @@
+body {
+  color: white;
+}
+
+header {
+  background: red;
+  text-align: center;
+}
+
+nav {
+  background: orange;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul > li {
+  display: inline-block;
+}
+
+nav ul a {
+  color: white;
+}
+
+main {
+  background: green;
+  padding: 10px;
+}
+
+article {
+  background: blue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: magenta;
+  text-align: center;
+  margin-top: -21px;  /* Не знаю как по-другому "прижать" footer к main*/ 
+}
