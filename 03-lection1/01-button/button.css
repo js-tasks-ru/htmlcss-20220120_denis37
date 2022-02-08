@@ -4,7 +4,6 @@
     padding: 15px 15px 14px 15px;
     border-radius: 8px;
     border: 1px solid transparent;
-    min-width: 200px;
 
     font-style: normal;
     font-weight: 500;
@@ -48,5 +47,5 @@
 
 .button_disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none;
 }
